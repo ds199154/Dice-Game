@@ -1,0 +1,6 @@
+// popup border mixin
+@mixin popup-border-style($solid-border, $border-spacing, $round-corners){
+    border: $solid-border;
+    border-spacing: $border-spacing;
+    border-radius: $round-corners;  
+} 

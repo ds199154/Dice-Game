@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dalvir Shoker - Dice Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <script src="scripts/dicegame.js" defer></script>
+  </head>
+  <body>
+    
+    <header id="header">
+      <h1>Dice Game by Dalvir Shoker</h1>
+    </header>
+    
+    <div class="container">
+      
+      <div class="player-one">
+        <h2>Player One</h2>
+        <div id="p1-roll">
+          <!-- PLAYER 1 ROLLS GO HERE -->
+        </div>
+        <div id="p1-score" class="div2">
+          <h2>Round Score: 0</h2>
+          <h2>Total: 0</h2>
+        </div>
+      </div>
+      
+      <div class="controller" id="controller">
+        <h1>Round</h1>
+        <h1 id="round">0</h1>
+        <button type="button" class="btn" id="rollDiceBtn">Roll Dice</button>
+        <button type="button" class="btn" id="resetGameBtn">New Game</button>
+      </div>
+      
+      <div class="player-two">
+        <h2>Player Two</h2>
+        <div id="p2-roll"></div>
+        <!-- PLAYER 2 ROLLS GO HERE -->
+        <div id="p2-score" class="div2">
+          <h2>Round Score: 0</h2>
+          <h2>Total: 0</h2>
+        </div>
+      </div>
+    
+    </div>
+    
+    <section class="popup" id="popup">
+      <div>
+        <button type="button" class="btnclose" id="closeBtn">X</button>
+      </div>
+    </section>
+    
+    <footer>
+      <p>&#169; 2023. COMP 2132. Website created by Dalvir Shoker. A01263111.</p>
+    </footer>
+    
+  </body>
+</html>
